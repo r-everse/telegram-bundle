@@ -1,0 +1,27 @@
+{
+    "name": "r-everse/telegram-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony integration for Telegram SDK",
+    "keywords": ["telegram", "symfony"],
+    "homepage": "https://telegram-bot-sdk.readme.io/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniele Donnini",
+            "email": "danieledonni@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "symfony/config": "^3.4",
+        "symfony/console": "^3.4",
+        "symfony/dependency-injection": "^3.4",
+        "symfony/http-kernel": "^3.4",
+        "irazasyed/telegram-bot-sdk": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Telegram\\TelegramBundle\\": "src/"
+        }
+    }
+}
