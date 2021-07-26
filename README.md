@@ -1,4 +1,8 @@
-# Telegram Bundle
+# Deprecation notice
+
+This package is deprecated and will soon be removed. We suggest using [irazasyed/telegram-bot-sdk](https://packagist.org/packages/irazasyed/telegram-bot-sdk) directly.
+
+## Telegram Bundle
 
 Symfony integration for [Telegram SDK](https://telegram-bot-sdk.readme.io/).
 
@@ -8,6 +12,7 @@ Symfony integration for [Telegram SDK](https://telegram-bot-sdk.readme.io/).
 [![License](https://poser.pugx.org/r-everse/telegram-bundle/license)](//packagist.org/packages/r-everse/telegram-bundle)
 
 ## Installation 
+
 ### Step 1: Download the Bundle
 You can install this bundle using Composer: 
 
@@ -66,7 +71,3 @@ parameters:
 ```php
 $this->getContainer()->get('telegram.chat.my_chat_alias')->sendMessage('Hello world!');
 ```
-
-## TODOs
-
-1. Unit tests
